@@ -7,5 +7,5 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: mostrar imagem
+       name: mostrar imagem
         run: echo "ola turma,o github Action funcionou" 
