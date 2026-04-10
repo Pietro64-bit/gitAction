@@ -1,0 +1,11 @@
+name : teste simples
+
+on: [push] 
+
+jobs: 
+  teste: 
+    run-on: ubuntu-latest
+
+    steps:
+      - name: mostrar imagem
+        run: echo "ola turma,o github Action funcionou" 
